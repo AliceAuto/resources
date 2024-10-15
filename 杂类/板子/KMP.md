@@ -1,3 +1,6 @@
+下面是标准的 KMP（Knuth-Morris-Pratt）字符串匹配算法的 C++ 实现模板。KMP 算法通过预处理模式串构建一个部分匹配表（也称为前缀表），以加速匹配过程。
+
+```cpp
 #include <iostream>
 #include <vector>
 #include <string>
@@ -68,3 +71,12 @@ int main() {
 
     return 0;
 }
+```
+
+### 代码说明：
+1. **部分匹配表（LPS）**: `buildPartialMatchTable` 函数用于构建模式串的部分匹配表，帮助算法确定在匹配失败时模式串应该向右移动多少位。
+2. **KMP 搜索**: `kmpSearch` 函数在给定的文本中搜索模式串，并输出匹配的位置。
+3. **主函数**: 在 `main` 函数中，定义了待搜索的文本和模式串，并调用 KMP 搜索。
+
+### 使用方法：
+将代码复制到你的 C++ 环境中，修改 `text` 和 `pattern` 变量以测试不同的字符串匹配。
