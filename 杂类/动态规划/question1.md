@@ -1,9 +1,5 @@
-[题目](https://icpc.upc.edu.cn/problem.php?cid=2982&pid=1)
-以下是关于使用深度优先搜索（DFS）和记忆化搜索（Memoization）来求解二维数组中最长滑坡路径的博客文章：
 
----
-
-# 在二维数组中寻找最长滑坡路径
+# [在二维数组中寻找最长滑坡路径](https://icpc.upc.edu.cn/problem.php?cid=2982&pid=1)
 
 ## 引言
 
