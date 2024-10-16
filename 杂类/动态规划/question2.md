@@ -1,5 +1,5 @@
 
-# 题目:[小红的矩阵行走](https://ac.nowcoder.com/acm/contest/91592/C)
+# [小红的矩阵行走](https://ac.nowcoder.com/acm/contest/91592/C)
 **这个题目是一个一眼看上去像贪心**
 **实际上这个题目可以用动态规划，可以用DFS，也可以用BFS,但是不能贪心**
 

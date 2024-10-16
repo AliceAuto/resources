@@ -1,5 +1,5 @@
 # [游戏智商问题](https://icpc.upc.edu.cn/problem.php?id=5308)
-##题解
+## 题解
 
 ## 题目描述
 
